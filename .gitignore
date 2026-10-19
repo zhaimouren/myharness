@@ -1,0 +1,24 @@
+# Secrets / env files -- NEVER commit these
+.env
+.env.local
+
+# Virtual environments
+.venv/
+venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# PyCharm: ignore the whole .idea folder, but KEEP run configurations.
+# Run configs are executable docs for "how to run this project" -> commit them.
+# workspace.xml and indexes are machine-local state -> never commit.
+.idea/*
+!.idea/runConfigurations/
+
+# Runtime artifacts
+*.log
